@@ -134,6 +134,7 @@
     <ClCompile Include="7kyu\alphabetSummary.cpp" />
     <ClCompile Include="7kyu\constructABitVectorSet.cpp" />
     <ClCompile Include="7kyu\countTheDigit.cpp" />
+    <ClCompile Include="7kyu\dontGiveMeFive.cpp" />
     <ClCompile Include="7kyu\isThisATriangle.cpp" />
     <ClCompile Include="7kyu\queueTimeCounter.cpp" />
     <ClCompile Include="7kyu\randomCase.cpp" />
