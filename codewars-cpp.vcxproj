@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="5 kyu\aChainAddingFunction.cpp" />
+    <ClCompile Include="5 kyu\josephusSurvivor.cpp" />
     <ClCompile Include="7 kyu\alphabetSummary.cpp" />
     <ClCompile Include="7 kyu\constructABitVectorSet.cpp" />
     <ClCompile Include="7 kyu\countTheDigit.cpp" />
