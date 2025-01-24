@@ -137,6 +137,7 @@
     <ClCompile Include="5 kyu\rot13.cpp" />
     <ClCompile Include="6 kyu\characterWithLongestConsecutiveRepetition.cpp" />
     <ClCompile Include="6 kyu\validateCreditCardNumber.cpp" />
+    <ClCompile Include="6 kyu\whichAreIn.cpp" />
     <ClCompile Include="7 kyu\alphabetSummary.cpp" />
     <ClCompile Include="7 kyu\constructABitVectorSet.cpp" />
     <ClCompile Include="7 kyu\countTheDigit.cpp" />
