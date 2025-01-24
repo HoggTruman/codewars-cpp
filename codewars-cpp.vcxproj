@@ -143,6 +143,7 @@
     <ClCompile Include="7 kyu\queueTimeCounter.cpp" />
     <ClCompile Include="7 kyu\randomCase.cpp" />
     <ClCompile Include="7 kyu\returnPyramids.cpp" />
+    <ClCompile Include="7 kyu\tidyNumberSpecialNumberSeries9.cpp" />
     <ClCompile Include="8 kyu\centuryFromYear.cpp" />
     <ClCompile Include="8 kyu\countOddNumbersBelowN.cpp" />
     <ClCompile Include="8 kyu\localizeTheBarycenterOfATriangle.cpp" />
