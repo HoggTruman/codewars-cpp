@@ -135,6 +135,7 @@
     <ClCompile Include="5 kyu\int32ToIPv4.cpp" />
     <ClCompile Include="5 kyu\josephusSurvivor.cpp" />
     <ClCompile Include="5 kyu\rot13.cpp" />
+    <ClCompile Include="6 kyu\buyingACar.cpp" />
     <ClCompile Include="6 kyu\characterWithLongestConsecutiveRepetition.cpp" />
     <ClCompile Include="6 kyu\validateCreditCardNumber.cpp" />
     <ClCompile Include="6 kyu\whichAreIn.cpp" />
