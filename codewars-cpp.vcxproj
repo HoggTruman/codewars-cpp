@@ -136,6 +136,7 @@
     <ClCompile Include="4 kyu\rangeExtraction.cpp" />
     <ClCompile Include="5 kyu\aChainAddingFunction.cpp" />
     <ClCompile Include="5 kyu\beeramid.cpp" />
+    <ClCompile Include="5 kyu\esolangInterpreters2.cpp" />
     <ClCompile Include="5 kyu\gapInPrimes.cpp" />
     <ClCompile Include="5 kyu\int32ToIPv4.cpp" />
     <ClCompile Include="5 kyu\josephusSurvivor.cpp" />
