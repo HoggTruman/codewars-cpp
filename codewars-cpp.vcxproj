@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClCompile Include="4 kyu\boggleWordChecker.cpp" />
     <ClCompile Include="4 kyu\humanReadableDurationFormat.cpp" />
+    <ClCompile Include="4 kyu\pathFinder1.cpp" />
     <ClCompile Include="4 kyu\rangeExtraction.cpp" />
     <ClCompile Include="4 kyu\theObservedPins.cpp" />
     <ClCompile Include="5 kyu\aChainAddingFunction.cpp" />
