@@ -1,11 +1,29 @@
 // https://www.codewars.com/kata/576986639772456f6f00030c
 
-#include <iostream>
+
 #include <string>
 #include <vector>
-#include <limits>
-#include <unordered_set>
-#include <algorithm>
+#include <map>
+#include <queue>
+
+
+struct NodeRounds {
+	NodeRounds(int node, int rounds)
+	{
+		this->node = node;
+		this->rounds = rounds;
+	}
+
+	int node;
+	int rounds;	
+};
+
+
+struct NodeRoundsComparator {
+	bool operator()(NodeRounds a, NodeRounds b) {
+		return a.rounds > b.rounds;
+	}
+};
 
 
 class PathFinder
@@ -22,23 +40,19 @@ class PathFinder
 
 		int find_min_rounds()
 		{
-			if (_n == 1) {
-				return 0;
-			}
+			_queue = {};
+			_queue.push(NodeRounds(0, 0));
+			_min_rounds = {};
 
-			_rounds = std::vector<int>(_maze.size(), std::numeric_limits<int>::max());
-			_rounds[0] = 0;
-			_completed_nodes = {};
-
-			while (_completed_nodes.size() < _num_nodes
-				&& _completed_nodes.count(_goal) == 0)
+			while (_min_rounds.count(_goal) == 0)
 			{
-				int next_node = find_shortest_incomplete();
-				_completed_nodes.insert(next_node);
-				update_rounds(next_node);
+				NodeRounds next_node = _queue.top();
+				_queue.pop();
+				_min_rounds[next_node.node] = next_node.rounds;
+				update_queue(next_node);
 			}
 
-			return _rounds[_goal];
+			return _min_rounds[_goal];
 		}
 
 
@@ -48,8 +62,8 @@ class PathFinder
 		size_t _num_nodes;
 		int _goal;		
 
-		std::vector<int> _rounds{};
-		std::unordered_set<int> _completed_nodes{};
+		std::priority_queue<NodeRounds, std::vector<NodeRounds>, NodeRoundsComparator> _queue;
+		std::map<int, int> _min_rounds{};
 
 
 		bool in_bounds(const int& node)
@@ -60,44 +74,24 @@ class PathFinder
 		}
 
 
-		void update_rounds(const int& node)
+		void update_queue(const NodeRounds& nr)
 		{
 			const std::vector<int> adjacent_nodes{ {
-				node - 1,
-				node + 1,
-				node - _n - 1,
-				node + _n + 1
+				nr.node - 1,
+				nr.node + 1,
+				nr.node - _n - 1,
+				nr.node + _n + 1
 			} };
 
 			for (const int& adj_node : adjacent_nodes)
 			{
 				if (in_bounds(adj_node) &&
-					_completed_nodes.count(adj_node) == 0)
+					_min_rounds.count(adj_node) == 0)
 				{
-					_rounds[adj_node] = std::min(
-						_rounds[node] + std::abs(static_cast<int>(_maze[node] - _maze[adj_node])),
-						_rounds[adj_node]);
+					int rounds{ nr.rounds + std::abs(static_cast<int>(_maze[nr.node] - _maze[adj_node])) };
+					_queue.push(NodeRounds(adj_node, rounds));
 				}
 			}
-		}
-
-
-		int find_shortest_incomplete()
-		{
-			size_t min_rounds_node{};
-			int min_rounds{ std::numeric_limits<int>::max() };
-
-			for (size_t i{ 0 }; i < _rounds.size(); ++i)
-			{
-				if (_rounds[i] < min_rounds &&
-					_completed_nodes.count(i) == 0)
-				{
-					min_rounds_node = i;
-					min_rounds = _rounds[i];
-				}
-			}
-
-			return static_cast<int>(min_rounds_node);
 		}
 };
 
@@ -106,22 +100,4 @@ static int path_finder(std::string maze)
 {
 	PathFinder pathFinder(maze);
 	return pathFinder.find_min_rounds();
-}
-
-
-int main()
-{
-	std::string s1 =
-		"000\n"
-		"000\n"
-		"000";
-
-	std::string failing =
-		"289\n"
-		"241\n"
-		"124";
-
-	int result{ path_finder(failing) };
-	
-	return 0;
 }
