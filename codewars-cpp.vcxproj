@@ -139,6 +139,7 @@
     <ClCompile Include="4 kyu\pathFinder2.cpp" />
     <ClCompile Include="4 kyu\pathFinder4.cpp" />
     <ClCompile Include="4 kyu\rangeExtraction.cpp" />
+    <ClCompile Include="4 kyu\spinningRingsFidget.cpp" />
     <ClCompile Include="4 kyu\theObservedPins.cpp" />
     <ClCompile Include="5 kyu\aChainAddingFunction.cpp" />
     <ClCompile Include="5 kyu\beeramid.cpp" />
