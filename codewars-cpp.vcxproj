@@ -171,6 +171,7 @@
     <ClCompile Include="7 kyu\isThisATriangle.cpp" />
     <ClCompile Include="7 kyu\jumpingNumberSpecialNumberSeries4.cpp" />
     <ClCompile Include="7 kyu\lostNumberInNumberSequence.cpp" />
+    <ClCompile Include="7 kyu\numberOfPeopleInTheBus.cpp" />
     <ClCompile Include="7 kyu\queueTimeCounter.cpp" />
     <ClCompile Include="7 kyu\randomCase.cpp" />
     <ClCompile Include="7 kyu\removeAnchorFromURL.cpp" />
