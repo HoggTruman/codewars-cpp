@@ -183,6 +183,7 @@
     <ClCompile Include="7 kyu\tidyNumberSpecialNumberSeries9.cpp" />
     <ClCompile Include="8 kyu\centuryFromYear.cpp" />
     <ClCompile Include="8 kyu\countOddNumbersBelowN.cpp" />
+    <ClCompile Include="8 kyu\findTheIntegral.cpp" />
     <ClCompile Include="8 kyu\grassHopperGradebook.cpp" />
     <ClCompile Include="8 kyu\localizeTheBarycenterOfATriangle.cpp" />
     <ClCompile Include="8 kyu\mpgToKpl.cpp" />
