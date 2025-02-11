@@ -157,6 +157,7 @@
     <ClCompile Include="6 kyu\englishBeggars.cpp" />
     <ClCompile Include="6 kyu\esolangInterpreters1.cpp" />
     <ClCompile Include="6 kyu\helpTheBookSeller.cpp" />
+    <ClCompile Include="6 kyu\multiplicationTable.cpp" />
     <ClCompile Include="6 kyu\statisticsForAnAthleticAssociation.cpp" />
     <ClCompile Include="6 kyu\sumOfASequenceHardcoreVersion.cpp" />
     <ClCompile Include="6 kyu\titTacToeLikeTableGenerator.cpp" />
