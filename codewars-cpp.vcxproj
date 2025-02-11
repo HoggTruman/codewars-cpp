@@ -167,6 +167,7 @@
     <ClCompile Include="7 kyu\allInclusive.cpp" />
     <ClCompile Include="7 kyu\alphabetSummary.cpp" />
     <ClCompile Include="7 kyu\arrayElementParity.cpp" />
+    <ClCompile Include="7 kyu\bumpsInTheRoad.cpp" />
     <ClCompile Include="7 kyu\constructABitVectorSet.cpp" />
     <ClCompile Include="7 kyu\countTheDigit.cpp" />
     <ClCompile Include="7 kyu\dontGiveMeFive.cpp" />
