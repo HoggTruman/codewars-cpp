@@ -189,6 +189,7 @@
     <ClCompile Include="8 kyu\localizeTheBarycenterOfATriangle.cpp" />
     <ClCompile Include="8 kyu\mpgToKpl.cpp" />
     <ClCompile Include="8 kyu\multiplicationTableForNumber.cpp" />
+    <ClCompile Include="8 kyu\theIfFunction.cpp" />
     <ClCompile Include="8 kyu\twiceAsOld.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
