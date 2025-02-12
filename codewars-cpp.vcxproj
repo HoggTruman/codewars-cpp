@@ -150,6 +150,7 @@
     <ClCompile Include="5 kyu\gapInPrimes.cpp" />
     <ClCompile Include="5 kyu\int32ToIPv4.cpp" />
     <ClCompile Include="5 kyu\josephusSurvivor.cpp" />
+    <ClCompile Include="5 kyu\primesInNumbers.cpp" />
     <ClCompile Include="5 kyu\productOfConsecutiveFibNumbers.cpp" />
     <ClCompile Include="5 kyu\rot13.cpp" />
     <ClCompile Include="6 kyu\buyingACar.cpp" />
