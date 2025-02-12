@@ -171,6 +171,7 @@
     <ClCompile Include="7 kyu\constructABitVectorSet.cpp" />
     <ClCompile Include="7 kyu\countTheDigit.cpp" />
     <ClCompile Include="7 kyu\dontGiveMeFive.cpp" />
+    <ClCompile Include="7 kyu\fixStringCase.cpp" />
     <ClCompile Include="7 kyu\formTheMinimum.cpp" />
     <ClCompile Include="7 kyu\growthOfAPopulation.cpp" />
     <ClCompile Include="7 kyu\isThisATriangle.cpp" />
