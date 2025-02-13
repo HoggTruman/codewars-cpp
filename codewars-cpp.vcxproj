@@ -192,6 +192,7 @@
     <ClCompile Include="8 kyu\countOddNumbersBelowN.cpp" />
     <ClCompile Include="8 kyu\findTheIntegral.cpp" />
     <ClCompile Include="8 kyu\grassHopperGradebook.cpp" />
+    <ClCompile Include="8 kyu\grassHopperPersonalizedMessage.cpp" />
     <ClCompile Include="8 kyu\localizeTheBarycenterOfATriangle.cpp" />
     <ClCompile Include="8 kyu\mpgToKpl.cpp" />
     <ClCompile Include="8 kyu\multiplicationTableForNumber.cpp" />
