@@ -188,6 +188,7 @@
     <ClCompile Include="7 kyu\returnPyramids.cpp" />
     <ClCompile Include="7 kyu\sortArrayByStringLength.cpp" />
     <ClCompile Include="7 kyu\sortedYesNoHow.cpp" />
+    <ClCompile Include="7 kyu\switcheroo.cpp" />
     <ClCompile Include="7 kyu\tidyNumberSpecialNumberSeries9.cpp" />
     <ClCompile Include="8 kyu\centuryFromYear.cpp" />
     <ClCompile Include="8 kyu\countOddNumbersBelowN.cpp" />
