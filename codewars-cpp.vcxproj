@@ -155,6 +155,7 @@
     <ClCompile Include="5 kyu\rot13.cpp" />
     <ClCompile Include="6 kyu\buyingACar.cpp" />
     <ClCompile Include="6 kyu\characterWithLongestConsecutiveRepetition.cpp" />
+    <ClCompile Include="6 kyu\consonantValue.cpp" />
     <ClCompile Include="6 kyu\englishBeggars.cpp" />
     <ClCompile Include="6 kyu\esolangInterpreters1.cpp" />
     <ClCompile Include="6 kyu\helpTheBookSeller.cpp" />
