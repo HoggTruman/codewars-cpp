@@ -187,6 +187,7 @@
     <ClCompile Include="7 kyu\randomCase.cpp" />
     <ClCompile Include="7 kyu\removeAnchorFromURL.cpp" />
     <ClCompile Include="7 kyu\returnPyramids.cpp" />
+    <ClCompile Include="7 kyu\simpleBeadsCounts.cpp" />
     <ClCompile Include="7 kyu\sortArrayByStringLength.cpp" />
     <ClCompile Include="7 kyu\sortedYesNoHow.cpp" />
     <ClCompile Include="7 kyu\switcheroo.cpp" />
