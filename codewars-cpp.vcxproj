@@ -173,6 +173,7 @@
     <ClCompile Include="7 kyu\bumpsInTheRoad.cpp" />
     <ClCompile Include="7 kyu\constructABitVectorSet.cpp" />
     <ClCompile Include="7 kyu\countTheDigit.cpp" />
+    <ClCompile Include="7 kyu\deodorantEvaporator.cpp" />
     <ClCompile Include="7 kyu\divideAndConquer.cpp" />
     <ClCompile Include="7 kyu\dontGiveMeFive.cpp" />
     <ClCompile Include="7 kyu\fixStringCase.cpp" />
