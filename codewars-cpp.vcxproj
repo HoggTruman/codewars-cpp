@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3 kyu\asciiGamesWarningIce.cpp" />
+    <ClCompile Include="3 kyu\battleshipFieldValidator.cpp" />
     <ClCompile Include="3 kyu\pathFinder3.cpp" />
     <ClCompile Include="3 kyu\screenLockingPatterns.cpp" />
     <ClCompile Include="4 kyu\boggleWordChecker.cpp" />
