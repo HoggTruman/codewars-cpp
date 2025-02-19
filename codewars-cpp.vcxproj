@@ -215,6 +215,7 @@
     <ClCompile Include="8 kyu\sumOfDifferencesInArray.cpp" />
     <ClCompile Include="8 kyu\theIfFunction.cpp" />
     <ClCompile Include="8 kyu\twiceAsOld.cpp" />
+    <ClCompile Include="8 kyu\unfinishedLoopBugFixing1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
