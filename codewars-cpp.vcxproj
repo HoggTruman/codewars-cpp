@@ -211,6 +211,7 @@
     <ClCompile Include="8 kyu\localizeTheBarycenterOfATriangle.cpp" />
     <ClCompile Include="8 kyu\mpgToKpl.cpp" />
     <ClCompile Include="8 kyu\multiplicationTableForNumber.cpp" />
+    <ClCompile Include="8 kyu\poleVaultStartingMarks.cpp" />
     <ClCompile Include="8 kyu\quarterOfTheYear.cpp" />
     <ClCompile Include="8 kyu\sumOfDifferencesInArray.cpp" />
     <ClCompile Include="8 kyu\theIfFunction.cpp" />
