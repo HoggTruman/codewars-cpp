@@ -197,6 +197,7 @@
     <ClCompile Include="7 kyu\sortedYesNoHow.cpp" />
     <ClCompile Include="7 kyu\strongNumber.cpp" />
     <ClCompile Include="7 kyu\switcheroo.cpp" />
+    <ClCompile Include="7 kyu\theOfficeIOuted.cpp" />
     <ClCompile Include="7 kyu\theSpeedOfLetters.cpp" />
     <ClCompile Include="7 kyu\tidyNumberSpecialNumberSeries9.cpp" />
     <ClCompile Include="7 kyu\turkishNumbers0To99.cpp" />
