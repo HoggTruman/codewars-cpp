@@ -182,6 +182,7 @@
     <ClCompile Include="7 kyu\fixStringCase.cpp" />
     <ClCompile Include="7 kyu\formTheMinimum.cpp" />
     <ClCompile Include="7 kyu\growthOfAPopulation.cpp" />
+    <ClCompile Include="7 kyu\isThereAnOddBit.cpp" />
     <ClCompile Include="7 kyu\isThisATriangle.cpp" />
     <ClCompile Include="7 kyu\jumpingNumberSpecialNumberSeries4.cpp" />
     <ClCompile Include="7 kyu\lostNumberInNumberSequence.cpp" />
