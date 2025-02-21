@@ -187,6 +187,7 @@
     <ClCompile Include="7 kyu\jumpingNumberSpecialNumberSeries4.cpp" />
     <ClCompile Include="7 kyu\lostNumberInNumberSequence.cpp" />
     <ClCompile Include="7 kyu\numberOfPeopleInTheBus.cpp" />
+    <ClCompile Include="7 kyu\numbersWithThisDigitInisde.cpp" />
     <ClCompile Include="7 kyu\overTheRoad.cpp" />
     <ClCompile Include="7 kyu\predictYourAge.cpp" />
     <ClCompile Include="7 kyu\queueTimeCounter.cpp" />
